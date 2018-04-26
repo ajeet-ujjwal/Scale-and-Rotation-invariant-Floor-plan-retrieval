@@ -47,7 +47,7 @@ if runStep(4)
     fprintf('\n');
 end
 
-% Step5: Run Approach 5 on these three datasets
+% Step5: Run Approach 2 on these three datasets
 if runStep(5)
     avg_accuracy20 = test_run(APPROACH_2, strcat(pwd, '\results_input0'));
     avg_accuracy21 = test_run(APPROACH_2, strcat(pwd, '\results_input1'));
